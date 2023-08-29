@@ -12,6 +12,8 @@ echo Hello World
 # Magenta             35
 # Cyan                36
 
+# We can double or single quotes , however double quotes are preferred
+
 # \e[0m -> Zero code is going to reset the color , meaning if we enable color for sure we need to disable it
 # otherwise it will continue on the screen
 
