@@ -6,6 +6,7 @@ xyz() {
   echo "Second Arguments ${1}"
   echo "All Arguments ${*}"
   echo "No. Of arguments ${#}"
+  echo "No. Of arguments {$#}"
 }
 
 xyz 123 312
