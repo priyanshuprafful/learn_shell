@@ -6,8 +6,12 @@ xyz() {
   echo "Second Arguments ${1}"
   echo "All Arguments ${*}"
   echo "No. Of arguments ${#}"
-  echo "No. Of arguments ${$#}" # garbage value dega
+  #echo "No. Of arguments ${$#}" # garbage value dega
   echo "No. Of arguments {$#}"  # ye {} ko as a string ka part samjhega
+  b=200
+  echo "Value of a is ${a}"
 }
-
+a=123
 xyz 123 312
+
+echo "Value of b is ${b}"
