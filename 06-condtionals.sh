@@ -5,8 +5,10 @@ if [ "${number}" -eq 5 ]; then # then can go in next line or else use ; and THEN
   echo  "number is ${number}"
 fi
 
-if [ "${string}" == "abc" ]; then
+if [ "${string}" ==  "abc" ]; then
     echo "String is ${string}"
+else
+  eco "String is not abc but ${string}"
 fi
 
 # it is always a good practice to quote the variable in the expressions
