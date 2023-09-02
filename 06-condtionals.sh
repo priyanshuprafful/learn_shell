@@ -8,7 +8,7 @@ fi
 if [ "${string}" ==  "abc" ]; then
     echo "String is ${string}"
 else
-  eco "String is not abc but ${string}"
+  echo "String is not abc but ${string}"
 fi
 
 # it is always a good practice to quote the variable in the expressions
