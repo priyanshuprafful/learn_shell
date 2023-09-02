@@ -5,7 +5,7 @@ if [ "${number}" -eq 5 ]; then # then can go in next line or else use ; and THEN
   echo  "number is ${number}"
 fi
 
-if [ "${string}" -eq "abc" ]; then
+if [ "${string}" == "abc" ]; then
     echo "String is ${string}"
 fi
 
