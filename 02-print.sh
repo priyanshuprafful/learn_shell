@@ -19,3 +19,4 @@ echo Hello World
 
 echo -e "\e[31mHello In Red Color "
 echo -e "Line1\nLine2\nLine3"
+# -e is for color and \n is for new line
