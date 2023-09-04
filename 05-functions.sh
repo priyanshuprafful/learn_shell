@@ -15,3 +15,11 @@ a=123
 xyz 123 312
 
 echo "Value of b is ${b}"
+
+abc() {
+  echo "Hello From abc function"
+  retun 108
+  echo "This will not get printed"
+}
+abc
+echo "Exit Status of abc function is = $? "
