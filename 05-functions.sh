@@ -18,7 +18,7 @@ echo "Value of b is ${b}"
 
 abc() {
   echo "Hello From abc function"
-  retun 108
+  return 108
   echo "This will not get printed"
 }
 abc
