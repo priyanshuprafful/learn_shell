@@ -18,3 +18,4 @@ echo Hello World
 # otherwise it will continue on the screen
 
 echo -e "\e[31mHello In Red Color "
+echo "Line1\nLine2\nLine3"
